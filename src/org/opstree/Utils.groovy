@@ -7,7 +7,7 @@ class Utils implements Serializable {
         this.script = script
     }
     def runSampleMethod(String name) {
-        script.echo "--- [src/org.opstree/Utils.groovy] ---"
+        script.echo "--- [src/org/opstree/Utils.groovy] ---"
         script.echo "Utils running structured task for: ${name}"
 
         script.stage('Class-Based Logic') {
